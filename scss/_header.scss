@@ -1,0 +1,102 @@
+header {
+    background-color: #f5f8fc;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.1rem 2rem;
+
+    .logo-holder{
+        vertical-align: middle;
+    }
+
+    .header-infor {
+        font-size: 0.5625rem;
+        margin: 0;
+        
+
+        li {
+            display: inline-block;
+            list-style: none;
+            padding-right: 1.5rem;
+
+            i {
+                font-size: 0.625rem;
+                font-weight: 800;
+                color: $text-color;
+            }
+            
+
+            a {
+                color: $text-color;
+                font-weight: 500;
+            }
+        }
+
+        .main-menu {
+            position: relative;
+            padding: 0.8rem 0;
+
+            .sub-menu {
+                position: absolute;
+                top: 100%;
+                display: none;
+                box-shadow: 1px 1px 1px 1px gray;
+                width: 120%;
+                text-align: center;
+                z-index: 999;
+                background-color: #f5f8fc;
+
+                .sub-menu-item {
+                    margin-bottom: 1rem;
+                    padding: 0;
+                }
+            }
+        }
+
+        .main-menu:hover > .sub-menu {
+            display: block;
+        }
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+
+        .header-phone {
+            padding: 0.1rem 0.5rem;
+            border-radius: 10px;
+            background-color: #f26739;
+            color: #f5f8fc;
+            font-size: 0.455rem;
+            margin-right: 1rem;
+
+            i {
+                font-size: 0.5rem;
+            }
+            
+        }
+
+        .customer {
+            font-size: 0.375rem;
+            
+
+            a:first-child {
+                color: $text-color;
+                font-size: 0.375rem;
+                font-weight: 500;
+                display: inline-block;
+                vertical-align: middle;    
+            }
+
+            a:last-child {
+                i { 
+                    color: $text-color;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

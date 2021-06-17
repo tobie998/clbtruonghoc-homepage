@@ -1,0 +1,33 @@
+@import url('http://fonts.cdnfonts.com/css/myriad-pro?styles=947,949,20533,946,952,950');
+
+                
+
+@import "variables";
+@import "header";
+@import "sub-header";
+@import "content-banner";
+@import "content-categories";
+@import "banner";
+@import "content-1";
+@import "content-2";
+@import "content-3";
+@import "footer";
+
+
+
+
+
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Myriad Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
