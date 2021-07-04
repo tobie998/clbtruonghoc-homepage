@@ -1,17 +1,25 @@
-@import url('http://fonts.cdnfonts.com/css/myriad-pro?styles=947,949,20533,946,952,950');
+@import "http://fonts.cdnfonts.com/css/myriad-pro?styles=947,949,20533,946,952,950";
 
                 
-
+//variables file
 @import "variables";
-@import "header";
-@import "sub-header";
-@import "content-banner";
-@import "content-categories";
-@import "banner";
-@import "content-1";
-@import "content-2";
-@import "content-3";
-@import "footer";
+//homepage scss file
+@import "./homepage-scss/header";
+@import "./homepage-scss/sub-header";
+@import "./homepage-scss/content-banner";
+@import "./homepage-scss/content-categories";
+@import "./homepage-scss/banner";
+@import "./homepage-scss/content-1";
+@import "./homepage-scss/content-2";
+@import "./homepage-scss/content-3";
+@import "./homepage-scss/footer";
+
+//course service file
+@import "./course-service-scss/banner-course";
+@import "./course-service-scss/course-sv-content";
+@import "./course-service-scss/course-sv-content-1";
+
+
 
 
 

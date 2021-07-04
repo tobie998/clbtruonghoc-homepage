@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Service</title>
+
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="http://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
+                
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--owl carousel-->
+    <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="./owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="header-content">
+                <div class="logo-holder">
+                    <a href="index.html">
+                        <img src="./images/logo-1/logo-main-01.png" alt="Logo">
+                    </a>
+                </div>
+
+                <ul class="header-infor">
+                    <li>
+                        <i class="las la-info-circle"></i>
+                        <a href="#">Hỏi đáp</a>
+                    </li>
+
+                    <li>
+                        <i class="las la-address-book"></i>
+                        <a href="#">Liên hệ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Chính sách</a>
+                    </li>
+
+                    <li class="main-menu">
+                        <a href="#">Tin tức</a>
+                        <i class="las la-sort-down"></i>
+                        <ul class="sub-menu">
+                            <li class="sub-menu-item"><a href="#">Tin tức 1</a></li>
+                            <li class="sub-menu-item"><a href="#">Tin tức 2</a></li>
+                            <li class="sub-menu-item"><a href="#">Tin tức 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="header-right">
+                    <div class="header-phone">
+                        <i class="las la-phone"></i> <span>1900.9237</span> 
+                    </div>
+
+                    <div class="customer">
+                        <a href="#">Tomnguyenjsc</a>
+                        <a href="#">
+                            <img src="./images/customer-logo.png" alt="Customer logo" >
+                        </a>
+                        <a href="#"><i class="las la-sort-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sub-header">
+        <div class="sub-header-holder container container-sm container-md container-lg container-xl">
+            <div class="sub-header-content">
+                <li>
+                    <i class="las la-graduation-cap"></i>
+                    <a href="#">KHÓA HỌC</a>
+                </li>
+
+                <li>
+                    <i class="las la-shopping-cart"></i>
+                    <a href="#">CỬA HÀNG</a>
+                </li>
+
+                <li>
+                    <i class="las la-university"></i>
+                    <a href="#">DỊCH VỤ</a>
+                </li>
+
+                <li>
+                    <i class="las la-award"></i>
+                    <a href="#">ƯU ĐÃI</a>
+                </li>
+            </div>
+
+            <div class="sub-header-right">
+                <div class="input-holder">
+                    <input type="text" placeholder="Tìm kiếm thông tin">
+                    <button>
+                        <i class="las la-search"></i>
+                        Search
+                    </button>
+                </div>
+                <button class="cart-btn">
+                    <i class="las la-cart-plus"></i>
+                    Giỏ hàng
+                    <span>1</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-course">
+        <img src="./images/course-service-img/course-sv-banner-01.png" alt="Banner">
+    </section>
+
+    <section class="course-sv-content">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="cs-content-holder">
+                <div class="cs-content-left">
+                    <div class="cs-left-item">
+                        <div class="cs-img-holder">
+                            <img src="./images/course-service-img/ky_nang_song-01.png" alt="Kỹ năng sống">
+                        </div>
+
+                        <h4>Khóa học kỹ năng</h4>
+
+                        <div class="cs-register-btn">
+                            <button data-id="register">Đăng ký</button>
+                        </div>
+
+                        <div class="cs-left-detail">
+                            <p class="cs-detail-p">
+                                <img src="./images/course-service-img/cs-icon-01.png" alt="Icon 1">
+                                Tổng số khóa học:  50 khóa
+                                <ul>
+                                    <li>Kỹ năng A.</li>
+                                    <li>Kỹ năng B.</li>
+                                </ul>
+                            </p>
+
+                            <p class="cs-detail-p">
+                                <img src="./images/course-service-img/cs-icon-02.png" alt="Icon 2">
+                                Độ tuổi: 4-5 tuổi.
+                            </p>
+
+                            <p class="cs-detail-p">
+                                <img src="./images/course-service-img/cs-icon-03.png" alt="Icon 3">
+                                Học phí: chỉ từ 50.000đ/buổi.
+                            </p>
+
+                            <p class="cs-detail-p">
+                                <img src="./images/course-service-img/cs-icon-04.png" alt="Icon 4">
+                                Tổ chức lớp theo yêu cầu: có.
+                            </p>
+
+                            <p class="cs-detail-p">
+                                <img src="./images/course-service-img/cs-icon-05.png" alt="Icon 5">
+                                Thời gian học: phù hợp
+                                <ul>
+                                    <li>Khóa 12 buổi.</li>
+                                    <li>Khóa 24 buổi.</li>
+                                </ul>
+                            </p>
+
+                            <p class="cs-detail-p">
+                                <img src="./images/course-service-img/cs-icon-02.png" alt="Icon 2">
+                                Mục tiêu hoàn thành khóa học
+                                <ul>
+                                    <li>Mục tiêu A.</li>
+                                    <li>Mục tiêu B.</li>
+                                    <li>Mục tiêu C.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cs-left-item-1">
+                        <div class="cs-left-item-heading">hỏi đáp</div>
+                        <div class="cs-left-detail-holder">
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+
+                            <div class="cs-left-detail-1">
+                                <a href="#">Hội thảo - Thi thử vào lớp 6 hệ song bằng Cambridge mục đích xã hội</a>
+                                <p>01/01/2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cs-content-right">
+                    <div class="cs-right-top-content">
+                        <div class="right-content-item first-item">
+                            <p>tư vấn - hỏi đáp</p>
+                            <div id="chat-btn">
+                                <a href="#">
+                                    <img src="./images/course-service-img/chat-icon-01.png" alt="Chat icon">
+                                    Chat tư vấn
+                                </a>
+                            </div>
+                            <div id="contact-btn">
+                                <span><i class="las la-phone"></i> 1900.9237</span> 
+                            </div>
+                        </div>
+    
+                        <div class="right-content-item second-item">
+                            <p>thông tin khác</p>
+                            <form>
+                                <input type="radio" id="first-option">
+                                <label for="first-option">Thông tin có thể được thay đổi từ đơn vị đào tạo</label><br>
+                                <input type="radio" id="second-option">
+                                <label for="second-option">Các phương thức thanh toán tiện dụng và nhiều ưu đãi</label>
+                            </form>
+                            
+                        </div>
+    
+                        <div class="right-content-item third-item">
+                            <p>chia sẻ mạng xã hội</p>
+                            <div class="right-social-btn">
+                                <a href="#">
+                                    <i class="las la-thumbs-up"></i>
+                                    Like
+                                </a>
+                            </div>
+    
+                            <div class="right-social-btn">
+                                <a href="#">Chia sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="cs-right-main-content">
+                        <div class="cs-right-main-btn">
+                            <button class="tab-btn active-btn" data-id="details">giới thiệu chi tiết</button>
+                            <button class="tab-btn" data-id="course-img">hình ảnh khóa học</button>
+                            <button class="tab-btn" data-id="video-clip">video clip</button>
+                            <button class="tab-btn" data-id="register">đăng ký</button>
+                        </div>
+    
+                        <div class="cs-right-main-details">
+                            <div class="cs-single-item active-item" id="details">
+                                <div class="cs-item-text">
+                                    <h5>giới thiệu chung khóa học</h5>
+                                    <p>
+                                        Tinh tế, sang trọng là 2 tính từ đặc trưng của mẫu voucher mang tên FIK-VC 000091. Vẻ đẹp toát lên từ sắc màu, bố cục và họa tiết kết hợp hài hòa đã tạo nên 1 mẫu voucher ấn tượng như thế. Nếu như màu đen sang trọng, quý phái thể hiện chút cá tính mạnh, thì sắc tím hồng dường lại là nét đẹp trang nhã, nhẹ nhàng. Hình ảnh chiếc nơ lạ mắt, điệu đà trang trí ở góc trái của voucher cùng con số 500$ ấn tượng, hiện trước mắt khách hàng để làm kích thích nhu cầu mua sản phẩm của họ.
+                                        Mẫu FIK-VC 000091 sẽ rất phù hợp với các sản phẩm trong ngành thời trang, sự kiện, nhà hàng,…
+                                    </p>
+                                    <h5>nhu cầu thực tế với voucher</h5>
+                                    <p>
+                                        Ngày càng trở nên phổ biến ở các nước có nền công nghiệp hiện đại, voucher ra đời với sứ mệnh làm cầu nối và liên kết giữa doanh nghiệp và khách hàng. Không chỉ góp phần thúc đẩy doanh số bán lẻ một cách hiệu quả, voucher còn là một cách giúp doanh nghiệp mở rộng hình ảnh, lan tỏa thương hiệu đến người tiêu thụ, gia tăng các giá trị cối lõi và đạt được mục tiêu chiến lược trong kinh doanh.
+                                    </p>
+                                    <h5>lợi ích khóa học</h5>
+                                    <p>
+                                        Kích thước của voucher
+                                    </p>
+                                    <p>
+                                        Voucher sẽ có ở nhiều kích thước khác nhau phụ thuộc vào mục đích sử dụng và yêu cầu của khách hàng.
+                                    </p>
+                                    <p>
+                                        Kích thước tối thiểu : 5.5x9cm,  tối đa : 20x20cm đảm bảo được sự nhỏ gọn nhưng vẫn đủ không gian để thể hiện những thông tin cơ bản cần thiết. 
+                                    </p>
+                                    <p>
+                                        Bên cạnh đó các mức kích cỡ có thể lựa chọn bao gồm:
+                                    </p>
+                                    <p>
+                                        7x9 ; 7x10; 10x10 ;7x 20; 8x15; 10x15; 10x20; 20x20 (cm) 
+                                    </p>
+                                </div>
+    
+                                <div class="cs-img-holder">
+                                    <img src="./images/course-service-img/tab-img-01.png" alt="Tab image">
+                                </div>
+                            </div>
+    
+                            <div class="cs-single-item" id="course-img">
+                                <div class="slider">
+                                    <div class="owl-carousel owl-theme owl-3">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="./images/slider-img/lotte-slider.png" alt="Lotte cinema">
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="./images/slider-img/cafe-slider.png" alt="Cafe">
+                                            </a>
+                                        </div> 
+            
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="./images/slider-img/hotpot-slider.png" alt="Hotpot">
+                                            </a>
+                                        </div>  
+            
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="./images/slider-img/seafood-slider.png" alt="Seafood">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="cs-single-item" id="video-clip">
+                                <div class="single-grid">
+                                    <div class="main-grid-item">
+                                        <iframe src="https://www.youtube.com/embed/H7fjqfSU0bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="item-description">
+                                            Lớp học 1
+                                        </div>
+                                    </div>
+    
+                                    <div class="single-grid-item">
+                                        <iframe src="https://www.youtube.com/embed/H7fjqfSU0bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="item-description">
+                                            Lớp học 1
+                                        </div>
+                                    </div>
+    
+                                    <div class="single-grid-item">
+                                        <iframe  src="https://www.youtube.com/embed/H7fjqfSU0bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="item-description">
+                                            Lớp học 1
+                                        </div>
+                                    </div>
+    
+                                    <div class="single-grid-item">
+                                        <iframe  src="https://www.youtube.com/embed/H7fjqfSU0bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="item-description">
+                                            Lớp học 1
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="cs-single-item" id="register">
+                                <form action="submit" class="cs-single-form">
+                                    <label for="party-time">Bạn muốn đặt tiệc vào thời gian nào?</label>
+                                    <input type="datetime-local" id="party-time"> <br>
+                                    <label for="party-budget">Ngân sách tổ chức tiệc cho 1 học sinh</label>
+                                    <input type="text" id="party-budget"> <br>
+                                    <label for="total-meals">Số lượng suất ăn</label>
+                                    <input type="text" id="total-meals"> <br>
+                                    <button type="button">Gửi yêu cầu</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="course-sv-content-1">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="content-1-heading">
+                <p>Khóa học <span>gợi ý</span></p>
+            </div>
+
+            <div class="content-1-holder">
+                <div class="content-1-grid">
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/chicken-1.png" alt="Chicken">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/ginseng-1.png" alt="Ginseng">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/ginseng-1.png" alt="Ginseng">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/hotpot-1.png" alt="Hot pot">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-1-grid">
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/bubble-tea-1.png" alt="Bubble tea">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/bubble-tea-1.png" alt="Bubble tea">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/bubble-tea-1.png" alt="Bubble tea">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="content-1-item">
+                        <div class="content-1-img-holder">
+                            <img src="./images/small-size-img/bubble-tea-1.png" alt="Bubble tea">
+                        </div>
+    
+                        <a href="#">Dịch vụ đưa đón học sinh</a>
+    
+                        <div class="item-info">
+                            <div class="item-info-left">
+                                <i><img src="./images/logo-1/content-1-logo-01.png" alt="User logo"></i>
+                                <span>500</span>
+                            </div>
+                            
+                            <div class="item-info-right">
+                                <i><img src="./images/logo-1/content-1-logo-02.png" alt="Like logo"></i>
+                                <span>20</span>
+                            </div>
+                        </div>
+    
+                        <div class="content-1-btn">
+                            <button class="item-btn"><a href="#">Gửi yêu cầu</a></button>
+                            <button class="item-btn"><a href="#">Xem thêm</a></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="content-3">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="content-3-heading">
+                <h4>Nền tảng kết nối phụ huynh và nhà trường đầu tiên tại Việt Nam</h4>
+                <p>Dễ dàng kết nối thông tin cùng <span>CLBTruonghoc</span></p>
+            </div>
+
+            
+            <div class="content-3-btn">
+                <button>
+                    Video hướng dẫn 
+                    <i class="las la-play"></i>
+                </button>
+            </div>
+
+            <div class="content-3-list">
+                <div class="ct-3-item">
+                    <div class="ct3-img-holder" id="blue-bg">
+                        <img src="./images/logo-1/Untitled-4-01.png" alt="Book logo">
+                    </div>
+
+                    <div class="ct3-description">
+                        <a href="#" id="blue-text">1.Đăng ký, đăng nhập tài khoản kết nối nhà trường</a>
+                        <p>Quý phụ huynh hãy đăng ký ngay tài khoản và cùng CLB trường học kết nốt với nhà trường cùng hàng trăm tiện ích khác</p>
+                    </div>    
+                </div>
+
+                <div class="ct-3-item">
+                    <div class="ct3-img-holder" id="red-bg">
+                        <img src="./images/logo-1/Untitled-4-02.png" alt="Hall logo">
+                    </div>
+
+                    <div class="ct3-description">
+                        <a href="#" id="red-text">2.Kết nối các dịch vụ tiện ích cho học sinh</a>
+                        <p>Quý phụ huynh hãy đăng ký ngay tài khoản và cùng CLB trường học kết nốt với nhà trường cùng hàng trăm tiện ích khác</p>
+                    </div>    
+                </div>
+
+                <div class="ct-3-item">
+                    <div class="ct3-img-holder" id="yellow-bg">
+                        <img src="./images/logo-1/Untitled-4-03.png" alt="Hat logo">
+                    </div>
+
+                    <div class="ct3-description">
+                        <a href="#" id="yellow-text">3.Trải nghiệm các khóa học phù hợp và chất lượng</a>
+                        <p>Quý phụ huynh hãy đăng ký ngay tài khoản và cùng CLB trường học kết nốt với nhà trường cùng hàng trăm tiện ích khác</p>
+                    </div>    
+                </div>
+
+                <div class="ct-3-item">
+                    <div class="ct3-img-holder" id="light-blue-bg">
+                        <img src="./images/logo-1/Untitled-4-04.png" alt="Reward logo">
+                    </div>
+
+                    <div class="ct3-description">
+                        <a href="#" id="light-blue-text">4.Lưu trữ thành tích học tập và vô số các chương trình hay</a>
+                        <p>Quý phụ huynh hãy đăng ký ngay tài khoản và cùng CLB trường học kết nốt với nhà trường cùng hàng trăm tiện ích khác</p>
+                    </div>    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-3-footer"></div>
+    </section>
+
+    <section class="footer">
+        <div class="container container-sm container-md container-lg container-xl">
+            <div class="footer-holder">
+                <div class="footer-item">
+                    <div class="footer-heading">CLB Trường Học</div>
+                    <div class="footer-content">
+                        <a href="#">Giới thiệu</a>
+                        <a href="#">Đội ngũ giảng viên</a>
+                        <a href="#">Báo chí</a>
+                        <a href="#">Giải thưởng</a>
+                        <a href="#">Sự kiện</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Tuyển dụng</a>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-heading">Dịch vụ</div>
+                    <div class="footer-content">
+                        <a href="#">Dành Cho Phụ Huynh</a>
+                        <a href="#">Dành Cho Học Sinh</a>
+                        <a href="#">Dành Cho Giáo Viên</a>
+                        <a href="#">Dành Cho Nhà Trường</a>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-heading">Trợ Giúp</div>
+                    <div class="footer-content">
+                        <a href="#">FAG</a>
+                        <a href="#">Liên hệ</a>
+                    </div>
+
+                    <div class="footer-content-1">
+                        <h4>giờ làm việc</h4>
+                        <p>Thứ 3-6: 09:00 - 19:30</p>
+                        <p>Thứ 7-CN: 08:00 - 20:00</p>
+                        <p>Thứ 2: Không làm việc</p>
+                    </div>
+
+                    <div class="footer-content-1">
+                        <h4>dành cho phụ huynh</h4>
+                        <p>tekid.facebook.com</p>
+                        <p>Hotline lãnh đạo: 0948 666 183</p>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-heading">
+                        <p>đăng kí nhận bản tin</p>
+                        <div class="heading-input">
+                            <input type="text" placeholder="Email của bạn">
+                            <button><i class="lar la-paper-plane"></i></button>
+                        </div>
+                    </div>
+                    <div class="footer-contact">
+                        <p>Follow us on Social</p>
+                        <div class="contact-logo">
+                            <div class="contact-logo-holder">
+                                <a href="#">
+                                    <img src="./images/logo-1/contact-logo-01.png" alt="Facebook logo">
+                                </a>
+                            </div>
+
+                            <div class="contact-logo-holder">
+                                <a href="#">
+                                    <img src="./images/logo-1/contact-logo-02.png" alt="Youtube logo">
+                                </a>
+                            </div>
+
+                            <div class="contact-logo-holder">
+                                
+                                <a href="#">
+                                    <img src="./images/logo-1/contact-logo-03.png" alt="Linkedin logo">
+                                </a>
+                            </div>
+
+                            <div class="contact-logo-holder">
+                                
+                                <a href="#">
+                                    <img src="./images/logo-1/contact-logo-04.png" alt="Twitter logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-info">
+                        <p id="first-p">Văn phòng Hà Nội</p>
+                        <p>Cơ sở 1: Tầng 8, Tòa nhà Rockland,</p>
+                        <p>Số 21-23 Nguyễn Công Hoan, Ba</p>
+                        <p>Đình, Hà Nội</p>
+                        <p>19009237</p>
+                        <p>hotro@clbtruong-</p>
+                        <p>hoc.edu.vn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy-right">
+            Copyright@ Công ty Cổ phần Thương mại CLB Trường Học. All Rights Reserved.
+        </div>
+    </section>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
